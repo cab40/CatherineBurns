@@ -1,0 +1,57 @@
+.proj-header{
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.proj-header-img{
+    width: 100%;
+    /* padding-bottom: 0px; */
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;}
+
+.proj-title{
+    /* margin-top: -15%; */
+}
+
+.img-desc{
+    font-size: smaller;
+}
+
+.themes-img{
+    width: 60%;
+}
+
+.typo-img{
+    width: 105%;
+}
+
+.p-title{
+    font-size: medium;
+    margin-bottom: 0px;
+}
+
+.quote-small{
+    margin-top: 30px;
+    font-size: large;
+}
+
+.nk-isotope-item{
+    margin: 7px !important;
+    /* padding: 5px !important; */
+    border: 1px solid gainsboro;
+}
+
+.header-projs{
+    /* margin-left: 20%; */
+    margin-top: 20px;
+    text-align: center;
+    font-family: Work Sans !important;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.devpost{
+    width: 23px;
+    margin-top: -4px;
+}
+
