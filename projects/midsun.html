@@ -153,7 +153,7 @@
                                 <em>Research Timeline</em>
                             </blockquote>
                             <p>The research and design of the Telemetry Dasboard was separated into 5 primary phases as listed below. Each phase will be outlined in more detail.</p>
-                            <hr>
+                            <!-- <hr>
                             <p class="p-title">Background Research</p>
                             <p class="p-title">.<br/>.</p>
                             <p class="p-title">Exploratory Interviews</p>
@@ -163,9 +163,48 @@
                             <p class="p-title">Design</p>
                             <p class="p-title">.<br/>.</p>
                             <p class="p-title">User Testing</p>
-                            <hr>
+                            <hr> -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="card">
+                                        <div class="card-body">                            
+                                            <div class="hori-timeline" dir="ltr">
+                                                <ul class="list-inline events">
+                                                    <li class="list-inline-item event-list timeline-item">
+                                                        <div class="">
+                                                            <a href="#BR"><p>Background Research</p></a><br>
+                                                            <!-- <p class="text-muted">Sample Desc</p> -->
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-inline-item event-list timeline-item">
+                                                        <div class="">
+                                                            <a href="#EI"><p>Exploratory Interviews</p></a><br>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-inline-item event-list timeline-item">
+                                                        <div class="">
+                                                            <a href="#PL"><p>Planning</p></a><br><br>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-inline-item event-list timeline-item">
+                                                        <div class="">
+                                                            <a href="#DE"><p>Design</p></a><br><br>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-inline-item event-list timeline-item">
+                                                        <div class="">
+                                                            <a href="#UT"><p>User Testing</p></a><br><br>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <!-- end card -->
+                                </div>
+                            </div>
                             <blockquote>
-                                <em>Background Research</em>
+                                <em id="BR">Background Research</em>
                             </blockquote>
                             <p>The primary goals of this phase were to understand more about user needs and learn more about data visualization practices, and dashboard design.</p>
                             <p>User needs were defined as what the user is using the dashboard for, and primary issues & pain points they may have encountered in existing dashboards. Through conversations with users, we established a list of collected vehicle CAN (Controller Area Network) data and primary use cases for the dashboard.</p>
@@ -175,7 +214,7 @@
                             <p class="img-desc"><em>Battery pack visualization inspiration pulled from from the "Reading Battery Voltages and Temperatures via CAN on Model S" thread at Tesla Motors Club. The debug view (left) highlights the min/max cell voltage and temperatures. Compared alongside rough wireframe (right).</em></p>
                             <p>Data visualization research consisted of graph and table <a target="_blank" class="about-a" href="https://docs.google.com/document/d/1StHl1kYWj9XgNdN3_GvPfecT0li37Sc_U9o0f9sg-N4/edit?usp=sharing">visualization types and best practices</a> as well as how different data types (string, integer, Boolean (TRUE/FALSE)) can be displayed. </p>
                             <blockquote>
-                                <em>Exploratory Interviews</em>
+                                <em id="EI">Exploratory Interviews</em>
                             </blockquote>
                             <p>I led and participated in various exploratory user interviews to discuss needs, previous experiences, and to engage in card-sorting exercises. Interview guides were created and customized based on user experience. Leads from different areas of the solar car team were tasked with sorting approximately 60 cards containing data from the list established during the background research phase. These data points were then assigned rankings based on how the leaders classified them and which leaders will be using the dashboard the most.</p>
                             <img src="../assets/images/card-sorting.png" alt="Card sorting" class="proj-header-img">
@@ -183,11 +222,13 @@
                             
                             
                             <blockquote>
-                                <em>Planning</em>
+                                <em id="PL">Planning</em>
                             </blockquote>
                             <p>The planning phase was relatively short where the primary goals were to understand pain points of the users and to formalize the scope and goals of the project. We compiled and organized research findings through affinity diagramming and isolated main points to prioritize. Features were defined for screens and components we needed to design. Finally, we completed information architecture mapping and grouping to understand user and screen flows with basic design sketches.</p>
+                            <img src="../assets/images/lofiwireframes.png" alt="Card sorting" class="proj-header-img">
+                            <p class="img-desc"><em>Low fidelity wireframes and planning sketches</em></p>
                             <blockquote>
-                                <em>Design</em>
+                                <em id="DE">Design</em>
                             </blockquote>
                             <p>Using cards or “containers”, we decided on fitting one graph/table or stacking collections of statuses for each card. This allows for a flexible, modular design that can handle multiple iterations resulting from firmware and hardware team rearrangement requests. We focused on using a column/grid system consisting of 12 columns (72px) with 24px gutters. To reduce issues in modifying aspect ratios and keeping the layout clean, cards must begin and end where columns begin and end. </p>
                             <img src="../assets/images/column-compare.png" alt="column system" class="proj-header-img">
@@ -197,7 +238,7 @@
                             <img src="../assets/images/statuses-sidbar.png" alt="statuses and sidebar wireframes" class="proj-header-img">
                             <p class="img-desc"><em>Sidebar design with statuses</em></p>
                             <blockquote>
-                                <em>User Testing</em>
+                                <em id="UT">User Testing</em>
                             </blockquote>
                             <p>In this phase, we consistently ran design iterations by relevant team leads to gather feedback and re-design based on their needs. The user testing and design phases toggled back and forth to ensure that the design met our initial goals.</p>
                         </div>
