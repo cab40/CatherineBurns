@@ -6,6 +6,10 @@ a:hover{
     color:var(--accent) !important;
 }
 
+.nk-nav-logo:hover {
+    text-decoration: none !important;
+}
+
 .proj-header{
     padding-top: 0px;
     margin-bottom: 0px;
@@ -99,6 +103,10 @@ a:hover{
 
 
 /* TIMELINE */
+.time-items {
+    color:var(--accent) !important;
+}
+
 .hori-timeline .events {
     border-top: 3px solid #e9ecef;
 }
@@ -135,24 +143,6 @@ a:hover{
     .hori-timeline .events .event-list .event-date {
         top: -12px;
     }
-}
-.bg-soft-primary {
-    background-color: rgba(64,144,203,.3)!important;
-}
-.bg-soft-success {
-    background-color: rgba(71,189,154,.3)!important;
-}
-.bg-soft-danger {
-    background-color: rgba(231,76,94,.3)!important;
-}
-.bg-soft-warning {
-    background-color: rgba(249,213,112,.3)!important;
-}
-.card {
-    border: none;
-    margin-bottom: 24px;
-    -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
-    box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
 }
 
 .timeline-item{
